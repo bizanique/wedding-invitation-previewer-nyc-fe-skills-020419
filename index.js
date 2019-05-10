@@ -16,13 +16,6 @@ const firstNameText= document.getElementById('first-name')
 }
  secondNameText.addEventListener('keyup', onKeyDownSecond)
  
- const lastNameText= document.getElementById('last-name')
-    function onKeyDownThird(event) {
-    const text=lastNameText.value
-     const third= document.getElementById("third")
-      third.innerHTML=text
-}
- lastNameText.addEventListener('keyup', onKeyDownThird)
  
   const dateText= document.getElementById('date')
     function onKeyDownFourth(event) {
